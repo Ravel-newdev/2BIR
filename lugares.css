@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Noto+Serif:wght@700&family=Sanchez&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border:none ;
+    text-decoration: none;
+    transition: .2s linear;
+}
+body{
+    background-color: #fff;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+div.title{
+    background-color: #043E52;
+    width: 100%;
+    text-align: center;
+    padding:15px 0;
+    color: #fff;
+    font-family: "Alkatra", cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+
+}
+.box-container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 40px;
+    align-content: center;
+    padding: 80px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius:8px ;
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 20rem;
+
+}
+.box:hover {
+    background-color: #eeeeee75;
+    scale: 1.1;
+    }
+.box img{
+    height: 150px;
+}
+h3{
+   color: #016a6d;
+   font-family: "Sanchez",serif;
+   font-weight: 500;
+}
+.btn {
+    font-family: 'Alkatra',serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    color: #016a6d;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 15px 3.8px;
+    width: 180px;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+ a.btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #043E52;
+
+    }
+    a.btn:active{
+    text-decoration: none;
+    color: #016a6d;
+    }
+.voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 50px;
+    background-color:#2bb57f;
+    border-radius: 5px;
+    margin-left: 1700px;
+    margin-bottom: 90px;
+    position: absolute;
+    top: 15px;
+    right: 16px;
+}
+.voltar a{
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+    font-family: "Alkatra",cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.voltar:hover{
+    scale: 1.1;
+}
+

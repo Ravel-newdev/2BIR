@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Noto+Serif:wght@700&family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Fraunces:opsz,wght@9..144,600&family=Noto+Serif:wght@700&family=Sanchez&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', 'Sans-serif';
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #043e52;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    font-size: 2.7rem;
+}
+header h1 {
+    font-family: 'Alkatra', cursive;
+    color: #2bb57f;
+}
+header span {
+    color: #fff;
+}
+.lista_primeira {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-right: 150px;
+}
+.lista_primeira li a {
+    color: #fff;
+    padding: 8px;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 20px;
+}
+header .lista_primeira li {
+    color: #fff;
+
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+
+    height: 100vh;
+}
+.section div {
+    margin-top: 110px;
+    align-self: start;
+    color: 'black';
+    display: grid;
+    gap: 2em;
+}
+.section div h2 {
+    font-family: 'Sanchez', serif;
+    color: black;
+    font-size: 230%;
+
+}
+.foto img {
+    max-width: 125%;
+    position: relative;
+    margin-top: -10%;
+    right: 100px;
+}
+#p1 {
+    color: #000000;
+    font-family: 'Playfair Display';
+    font-size: 3.5rem;
+    font-weight: 140;
+}
+#p2 {
+    color: #2bb57f;
+    font-family: 'Alkatra', cursive;
+    font-size: 3.2rem;
+    left: 10%;
+    position: relative;
+    margin-top: -17px;
+}
+#text {
+    color: 'black';
+    font-family: 'Sanchez', serif;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 200;
+    margin-top: -40px;
+    margin-right: 110px;
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+}
+.logo {
+    height: 120px;
+    position: relative;
+    left: 15%;
+    margin: 50px;
+}
+.logo img {
+    height: 100%;
+}
+.tira {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tira img {
+    width: 450px;
+}
+.navigator ul li a:hover {
+    color: #2bb57f;
+    transition: color 0.5s ease
+}
+.navigator ul{
+    padding: 0;
+
+}
+.navigator ul ul{
+    display: none;
+
+}
+.navigator ul .lista_primeira :hover > ul{
+    display: block;
+}
+.mais img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-top: -5%;
+}
+.slogan {
+    max-width: 80%;
+    font-size: 80px;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30%;
+}
+#frase {
+    font-family: 'Alkatra', cursive;
+    color: #016A6D;
+}
+
+
+.contato .contatos{
+    text-align: center;
+    padding-right: 700px;
+    padding-bottom: 80px;
+    font-size: 1.5rem;
+
+}
+.serviços{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 28%;
+    padding-right: 28% ;
+    margin-top: 10%;
+    font-family:"Sanchez", serif;
+
+}
+
+.objetos{
+    width: 300px;
+    border: 3px solid #F2F2F2;
+    box-shadow: 2px 2px 4px #929292;
+    padding: 30px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+.objetos img {
+    max-width: 100%;
+}
+.objetos a {
+
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #2bb57f;
+    color: #F2F2F2;
+    padding: 7px;
+    max-width: 100%;
+    border-radius: 7px;
+    margin-top: 80px;
+    font-size: 2rem;
+    font-family:"Sanchez", serif;
+
+
+}
+.serviços a:hover{
+    background-color: #016A6D;
+    transition: color 1s ease;
+}
+.salas{
+    width: 300px;
+    border: 3px solid #F2F2F2;
+    box-shadow: 2px 2px 4px #929292;
+    padding: 30px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.salas img {
+    max-width: 100%;
+}
+.salas a {
+
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #2bb57f;
+    color: #F2F2F2;
+    padding: 7px;
+    max-width: 100%;
+    border-radius: 7px;
+    margin-top: 80px;
+    font-size: 2rem;
+    font-family:"Sanchez", serif;
+
+
+}
+#espa{
+    font-family:"Sanchez", serif;
+    font-size: 2.5rem;
+    color: #016A6D;
+}
+#equi{
+    font-family:"Sanchez", serif;
+    font-size: 2.5rem;
+    color: #016A6D;
+
+}
+.Final {
+    max-width: 100%;
+    background-color: #043e52;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30%;
+    flex-wrap: wrap;
+
+
+}
+.logo2 {
+    max-width: 30%;
+    position: relative;
+    margin-left: 30%;
+}
+.Final p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50%;
+    font-family: "Sanchez", serif;
+    color: #F2F2F2;
+    font-size: 1.3rem;
+
+}
+
+.ifens i {
+   color: white;
+   font-size: 2rem;
+   padding-top: 10%;
+   margin: 5px 0px;
+   padding-right: 20px;
+
+}
+.contatos{
+    font-size: 2.6rem;
+    color: #2bb57f;
+    font-family: 'Sanchez', serif;
+    align-items: center;
+}
+
+.conf {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    align-items: center;
+    margin-right: 50px;
+    top: 30px;
+    right: 15px;
+    left: 93%;
+
+
+}
+
+.btn-conf{
+    background-color: #043e52;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin-top:16.5px ;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0);
+    border-bottom: 0px;
+    border:none;
+
+}
+.btn-conf:hover{
+    color: #2bb57f;
+    transition: color 0.5s ease;
+}
+
+.sub {
+    display: none;
+    background-color: white;
+    min-width: 100px;
+    position: relative;
+    text-align: center;
+    text-align: start;
+    border-radius: 4px;
+
+}
+.sub a {
+    color: #043e52;
+    padding: 0.5px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+}
+.conf:hover .sub {
+    display: block;
+}
+.sub a:hover {
+ background-color: #81B7A9;
+ color: #fff;
+ border-radius: 4px;
+}
+
+

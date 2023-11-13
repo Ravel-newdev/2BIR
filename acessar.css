@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Noto+Serif:wght@700&family=Sanchez&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.selecione{
+    width: 100%;
+    background-color: #043e52;
+    text-align: center;
+    padding:15px 0;
+    color: #fff;
+    font-family: "Alkatra", cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+}
+.quadros{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 90px;
+    align-content: center;
+    padding: 80px ;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 200px;
+
+}
+.acessar{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius:8px ;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 25rem;
+
+}
+.acessar img{
+    height: 200px;
+}
+.acessar:hover{
+    background-color: #eeeeee75;
+    scale: 1.1;
+}
+h3{
+    font-family: "Sanchez",serif;
+    font-weight: 400;
+    color: #016a6d;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+a.btn{
+    font-family: 'Alkatra',serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    color: #016a6d;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 40px 3.8px;
+    width: 180px;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+a.btn:hover{
+    transition: .2s;
+    background-color: #043e52;
+    color: #fff;
+}
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 50px;
+    background-color:#2bb57f;
+    border-radius: 5px;
+    margin-left: 1700px;
+    margin-bottom: 90px;
+    position: absolute;
+    top: 15px;
+    right: 16px;
+}
+.bot a{
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+    font-family: "Alkatra",cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.bot:hover{
+    scale: 1.1;
+}
